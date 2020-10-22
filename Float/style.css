@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none; 
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+a {
+    color: #1a1a1a
+}
+
+.menu {
+    padding-left: 160px;
+}
+.target {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px; 
+    float: left;  
+}
+.red, .red > a {
+    color: darkred;
+}
+.center {
+    background-color: #7e0019;
+    height: 120px;
+    clear: both;
+    align-items: center;
+    color: white;
+    padding-left: 100px;
+    padding-top: 25px;
+    
+}
+.text-left {
+    float: left;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+.text-center {
+    float: left;
+    margin-right: 200px;
+}
+.text-center-top {
+    font-size: 40px;
+    font-family: cursive;
+}
+.text-center-bottom {
+    text-align: center;
+}
+.text-right {
+    color: white;
+    font-weight: 600;
+    float: left;
+    padding-top: 9px;
+}
+.ukr {
+    opacity: 0.4;
+    margin-right: 2px;
+}
+.text-lng {
+    float: left;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.club {
+    float: left;
+    width: 110px; 
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: #b30c1d;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.menu2 {
+    padding: 7px 0 0 190px;
+}
+.nav {
+    margin: 7px;
+    font-weight: 600;
+    cursor: pointer;
+    float: left;
+}
